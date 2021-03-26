@@ -125,7 +125,7 @@ namespace лабораторная_2__web_браузер_
             if (result == DialogResult.Yes)
             {
                 historyListBox.Items.Clear();
-                
+                System.IO.File.WriteAllText("browserHistory.txt", " ");              
             }
             else
             {
